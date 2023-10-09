@@ -35,20 +35,14 @@
     display: flex;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);    padding: 10px 60px;
-   
     color: #fff;
-    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 
 }
 .header2 .li2{
     padding: 15px 15px;
     font-size: 18px;
 }
-
-
-
 .nav {
     width: 100%;
     height: 30px;
@@ -170,20 +164,21 @@
     padding: 5px 20px;
 }
 
-.footer1{
+.footer{
     position: absolute;
     width: 100%;
     margin-left: -60px;
     padding-left: 20px;
     height: 550%;
+    display: flex;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,121,9,1) 49%, rgba(0,212,255,1) 100%);
-    overflow-x: hidden;
-    overflow-y: hidden;
+    
 
     
 }
 .footer1 ul{
+    color: #fa481c;
     padding: 15px 60px;
     font-size: 30px;
 }
@@ -194,24 +189,100 @@
     padding: 0px 60px;
     
 }
-.footer2{
-  position: relative;
-  bottom: 92%;
-  left: 40%;
 
+.footer2 ul{
+    color: #fa481c;
+    padding: 15px 60px;
+    font-size: 30px;
+}
+.footer2 li{
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+    padding: 0px 60px;
+    
 }
 .footer3{
-    position: relative;
-  bottom: 170%;
-  left: 75%;
+    margin: 20px 190px;
+}
+
+
+
+@media screen and ( max-width: 768px) {
   
-  padding-top: -10px;
-}
-.footer3 ul{
-    padding-top: -50px;
-    font-size: 15px;
-}
-.footer3 li{
-    padding-top: -50px;
-    font-size: 15px;
-}
+    .p2{
+        width: 70%;
+        margin-bottom: 15px;
+        padding-right: 60px;
+        word-spacing: normal;
+    } 
+    .p3{
+        width: 59%;
+        margin-left: 20px;
+        word-spacing: normal;
+        border-left: 3px green solid;
+        padding: 15px 15px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    .p4{
+        width: 70%;
+        margin-bottom: 15px;
+        padding-right: 60px;
+        word-spacing: normal;
+    } 
+    .p8{
+        width: 59%;
+        margin-left: 20px;
+        word-spacing: normal;
+        border-left: 3px green solid;
+        padding: 15px 15px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    
+    .footer1 ul{
+        padding: 20px 120px;
+        font-size: 20px;
+    }
+    .footer1 li{
+        font-size: 15px;
+        color: #fff;
+        list-style: none;
+        padding: 0px 10px;
+        margin-left: 20px;
+        
+    }
+
+    .footer2 ul{
+        padding: 20px 90px;
+        font-size: 20px;
+    }
+    .footer2 li{
+        font-size: 15px;
+        color: #fff;
+        list-style: none;
+        padding: 0px 20px;
+        margin-left: -12px;
+        
+    }
+    .footer3 .ff {
+        color: #000000;
+        font-size: 11px;
+        margin-left: -140px;
+    
+      
+       
+        
+    }
+    .footer3 li{
+        font-size: 11px;
+        margin-left: -140px;
+        list-style: none;
+        }
+    
+   
+    
+ }
